@@ -1,4 +1,5 @@
 'use client';// Tambahkan ini di bagian atas file
+import Script from 'next/script'
 import { ThemeProvider } from 'next-themes'
 import React, { useEffect, useState } from 'react';
 import Navbar from './component/navbar';
@@ -21,6 +22,7 @@ const DashboardLayout = ({children}) => {
               {children}
           <Footer />
       </div>
+      <Script src="https://kit.fontawesome.com/09ebbbb1f0.js" crossorigin="anonymous"></Script>
     </ThemeProvider>
   )
 }
