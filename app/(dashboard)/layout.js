@@ -2,8 +2,7 @@
 import Script from 'next/script'
 import { ThemeProvider } from 'next-themes'
 import React, { useEffect, useState } from 'react';
-import Navbar from './component/navbar';
-import Footer from './component/footer';
+import {Navbar, Footer} from './component';
 
 const DashboardLayout = ({children}) => {
   const [mounted, setMounted] = useState(false);

@@ -1,6 +1,8 @@
-import React from 'react'
+'use client';
+import { useEffect, useState, React } from 'react';
 
 const Navbar = () => {
+
   return (
     <div>Navbar</div>
   )
