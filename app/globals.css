@@ -1,6 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
 
+@theme{
+   --color-regal-blue: #243c5a;
+   --color-nft-dark: #24252D;
+   --color-nft-gray-1: #E3E1E3;
+   --color-nft-gray-2: #888888;
+   --color-nft-gray-3: #4F4F4F;
+   --color-nft-black-1: #2D2E36;
+   --color-nft-black-2: #1B1A21;
+   --color-nft-black-3: #2A2D3A;
+   --color-nft-black-4: #24252D;
+   --color-nft-red-violet: #DA18A3;
+   --color-file-active: #2196f3;
+   --color-file-accept: #00e676;
+   --color-file-reject: #ff1744;
+   --color-overlay-black: rgba(0, 0, 0, 0.8);
+}
+
 .nft-gradient {
   background: linear-gradient(101.12deg, #EB1484 27.35%, #C91CC3 99.99%, #C81CC5 100%, #C81CC5 100%);
 }
