@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme{
    --color-regal-blue: #243c5a;
@@ -16,6 +17,17 @@
    --color-file-accept: #00e676;
    --color-file-reject: #ff1744;
    --color-overlay-black: rgba(0, 0, 0, 0.8);
+   --font-poppins:"Poppins", sans-serif;
+   --spacing-65: 65px;
+   --spacing-155: 155px;
+   --spacing-190: 190px;
+   --spacing-215: 215px;
+   --spacing-240: 240px;
+   --spacing-256: 256px;
+   --spacing-300: 300px;
+   --spacing-327: 327px;
+   --spacing-557: 557px;
+   --flex-2: 2 2 0%,
 }
 
 .nft-gradient {
