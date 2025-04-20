@@ -16,7 +16,7 @@ const DashboardLayout = ({children}) => {
   }
   return (
     <ThemeProvider attribute="class" >
-      <div className="dark:bg-nft-dark text-black bg-white min-h-screen">
+      <div className="dark:bg-nft-dark dark:text-white text-black bg-white min-h-screen">
           <Navbar />
               {children}
           <Footer />
